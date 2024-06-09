@@ -1,5 +1,5 @@
 import React from "react";
-import Typical from "react-typical";
+import Typist from "react-text-typist";
 
 import ScrollService from "../../../utilities/scroll-service.utilities";
 
@@ -34,22 +34,14 @@ function Profile() {
           </div>
           <div className="profile-details-role">
             <span className="primary-text">
-              {" "}
               <h1>
-                {" "}
-                <Typical
-                  loop={Infinity}
-                  steps={[
+                <Typist
+                  sentences={[
                     "Ethusiastic Leader",
-                    2000,
                     "Fullstack Developer 🧑🏾‍💻",
-                    2000,
                     "Software Engineer 💻",
-                    2000,
                     "Scrum Master Certified 😎",
-                    2000,
                     "AWS Certified 💻",
-                    2000,
                   ]}
                 />
               </h1>

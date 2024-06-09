@@ -67,8 +67,8 @@ function Profile() {
               Hire Me
             </button>
             <a
-              href="SebastianRios_Resume.pdf"
-              download="SebastianRios_Resume.pdf"
+              href="SebastianRios_ResumeCV.pdf"
+              download="SebastianRios_ResumeCV.pdf"
             >
               <button className="btn highlighted-btn">Get CV!</button>
             </a>
